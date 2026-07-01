@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6e0136/X/v1
+canonical_location: https://kanripo.org/bkk/KR6e0136/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 註同教問答
+  identifiers:
+    krp: KR6e0136
+    cbeta: X58n1017
+    cbeta_old_id: X58n1017
+    authorityid: CA0004153
+    json_key: X1017
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X58/X58n1017.xml
+    old_id: X58n1017
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0136_000-X.yaml, hash: 'sha256:ea4c449e48964a8f307d1f20cee7a50468c02e071ad45391152c7188ab5a0373'}
+  - {seq: 1, filename: KR6e0136_001-X.yaml, hash: 'sha256:7340a6e8959db58a21a8fe4774c5088c0019856bf8abbb8c15c26eec0944f653'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6e0136_000-X.markers.yaml, hash: 'sha256:82a530d0948e5f06b2388d19f8a99d2b3c6830d188cb71f6227e793d699f20cc'}
+  - {seq: 1, role: markers, filename: assets/KR6e0136_001-X.markers.yaml, hash: 'sha256:5cfc980ac58c9c9ae4f717703819cf8e64b65d2fdb7eec71cf139582c3837ac0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0136_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 11128
+  label: 注同教問答
+  type: juan
+  level: 1
+hash: sha256:d2f907e5d51145ff15ef035cc60671d3fbd1d4d1dde4cefae50e1e55e9ca2e09

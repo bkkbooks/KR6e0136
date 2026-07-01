@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6e0136/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 註同教問答
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X58/X58n1017.xml
+    old_id: X58n1017
+hash: sha256:ea4c449e48964a8f307d1f20cee7a50468c02e071ad45391152c7188ab5a0373

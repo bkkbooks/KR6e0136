@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6e0136/v1
+canonical_location: https://kanripo.org/bkk/KR6e0136/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 註同教問答
+  identifiers:
+    alt_id:
+    - X58n1017
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X58/X58n1017.xml
+    old_id: X58n1017
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0136_000.yaml, hash: 'sha256:ea4c449e48964a8f307d1f20cee7a50468c02e071ad45391152c7188ab5a0373'}
+  - {seq: 1, filename: KR6e0136_001.yaml, hash: 'sha256:4a89bd32c3950860c63fcb95c00c13fe9a1c43177304d56fd7981f0a5e480306'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6e0136_001.markers.yaml, hash: 'sha256:5c5fc001ff8e479dad282353cebf810a74796034bfd31fce132dfd41fb5732bb'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0136_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 11128
+  label: 注同教問答
+  type: juan
+  level: 1
+hash: sha256:29cad1a95d9a942d8b45629c88f18ac48071b1fd35f75b6cee2d417cc39e2546
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
